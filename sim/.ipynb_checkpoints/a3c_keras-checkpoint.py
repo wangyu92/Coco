@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
+import logger
 
 GAMMA = 0.99
 A_DIM = 30
@@ -79,6 +80,7 @@ class ActorNetwork(object):
             dense_net_0 = keras.layers.Dense(1024, activation='relu')(merge_net)
             
             out = keras.layers.Dense(30, activation='linear')(dense_net_0)
+            
             return inputs, out
 
     def train(self, inputs, acts, act_grad_weights):

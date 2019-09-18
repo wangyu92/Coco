@@ -17,8 +17,8 @@ S_INFO = 5
 S_LEN = 30  # the number of maximum cluster head
 A_DIM = 30
 
-ACTOR_LR_RATE = 0.0001
-CRITIC_LR_RATE = 0.001
+ACTOR_LR_RATE = 0.00001
+CRITIC_LR_RATE = 0.0001
 
 NUM_AGENTS = 1
 TRAIN_SEQ_LEN = 100  # take as a train batch
@@ -85,7 +85,7 @@ def central_agent(net_params_queues, exp_queues):
                         filemode='w',
                         level=logging.INFO)
 
-    with tf.Session() as sess, open(LOG_FILE + '_test', 'wb') as test_log_file:
+    with tf.Session() as sess, open(LOG_FILE + '_test', 'wb') as test_log_file: 
 
         actor = a3c.ActorNetwork(sess,
                                  state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
@@ -225,6 +225,7 @@ def agent(agent_id, net_params_queue, exp_queue):
         while True:  # experience video streaming forever
             rembs = net_env.get_remb_of_cluster_head()
             
+            # 새로운 비디오가 시작되면 1부터 시작
             if net_env.trace_iterator == 1:
                 del s_batch[:]
                 del a_batch[:]
@@ -236,11 +237,6 @@ def agent(agent_id, net_params_queue, exp_queue):
             else:
                 state = np.array(s_batch[-1], copy=True)
                 
-                
-            if time_stamp % 10 == 0:
-                print(np.array(s_batch).shape)
-                print(np.array(a_batch).shape)
-            
             cpu_usage = 0
             bandwidth = 10000000
             source_bitrate = 10000
@@ -282,8 +278,6 @@ def agent(agent_id, net_params_queue, exp_queue):
 
                 # synchronize the network parameters from the coordinator
                 actor_net_params, critic_net_params = net_params_queue.get()
-                actor.set_network_params(actor_net_params)
-                critic.set_network_params(critic_net_params)
 
                 del s_batch[:]
                 del a_batch[:]
