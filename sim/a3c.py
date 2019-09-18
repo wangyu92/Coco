@@ -7,7 +7,6 @@ GAMMA = 0.99
 A_DIM = 30
 ENTROPY_WEIGHT = 0.5
 ENTROPY_EPS = 1e-6
-S_INFO = 6
 # === State ====
 # 1. List of REMB*
 # 2. List of number of clients*
@@ -73,11 +72,11 @@ class ActorNetwork(object):
             # list of number of clients
             split_1 = tflearn.conv_1d(inputs[:, 1:2, :], 128, 4, activation='relu')
             # hardware resource usage
-            split_2 = tflearn.fully_connected(inputs[:, 2:3, -1], 128, 4, activation='relu')
+            split_2 = tflearn.fully_connected(inputs[:, 2:3, -1], 128, activation='relu')
             # bandwidth of server
-            split_3 = tflearn.fully_connected(inputs[:, 3:4, -1], 128, 4, activation='relu')
+            split_3 = tflearn.fully_connected(inputs[:, 3:4, -1], 128, activation='relu')
             # bitrate of source video
-            split_4 = tflearn.fully_connected(inputs[:, 4:5, -1], 128, 4, activation='relu')
+            split_4 = tflearn.fully_connected(inputs[:, 4:5, -1], 128, activation='relu')
 
             split_0_flat = tflearn.flatten(split_0)
             split_1_flat = tflearn.flatten(split_1)
@@ -85,7 +84,7 @@ class ActorNetwork(object):
             merge_net = tflearn.merge([split_0_flat, split_1_flat, split_2, split_3, split_4], 'concat')
 
             dense_net_0 = tflearn.fully_connected(merge_net, 1024, activation='relu')
-            out = tflearn.fully_connected(dense_net_0, self.a_dim)
+            out = tflearn.fully_connected(dense_net_0, self.a_dim, activation='linear')
 
             return inputs, out
 
@@ -174,19 +173,19 @@ class CriticNetwork(object):
             # list of number of clients
             split_1 = tflearn.conv_1d(inputs[:, 1:2, :], 128, 4, activation='relu')
             # hardware resource usage
-            split_2 = tflearn.fully_connected(inputs[:, 2:3, -1], 128, 4, activation='relu')
+            split_2 = tflearn.fully_connected(inputs[:, 2:3, -1], 128, activation='relu')
             # bandwidth of server
-            split_3 = tflearn.fully_connected(inputs[:, 3:4, -1], 128, 4, activation='relu')
+            split_3 = tflearn.fully_connected(inputs[:, 3:4, -1], 128, activation='relu')
             # bitrate of source video
-            split_4 = tflearn.fully_connected(inputs[:, 4:5, -1], 128, 4, activation='relu')
+            split_4 = tflearn.fully_connected(inputs[:, 4:5, -1], 128, activation='relu')
 
             split_0_flat = tflearn.flatten(split_0)
             split_1_flat = tflearn.flatten(split_1)
 
             merge_net = tflearn.merge([split_0_flat, split_1_flat, split_2, split_3, split_4], 'concat')
 
-            dense_net_0 = tflearn.fully_connected(merge_net, 1024, activation='relu')
-            out = tflearn.fully_connected(dense_net_0, self.a_dim)
+            dense_net_0 = tflearn.fully_connected(merge_net, 128, activation='relu')
+            out = tflearn.fully_connected(dense_net_0, 1, activation='linear')
 
             return inputs, out
 
@@ -246,7 +245,7 @@ def compute_gradients(s_batch, a_batch, r_batch, terminal, actor, critic):
     else:
         R_batch[-1, 0] = v_batch[-1, 0]  # boot strap from last state
 
-    for t in reversed(xrange(ba_size - 1)):
+    for t in reversed(range(ba_size - 1)):
         R_batch[t, 0] = r_batch[t] + GAMMA * R_batch[t + 1, 0]
 
     td_batch = R_batch - v_batch
@@ -264,7 +263,7 @@ def discount(x, gamma):
     """
     out = np.zeros(len(x))
     out[-1] = x[-1]
-    for i in reversed(xrange(len(x)-1)):
+    for i in reversed(range(len(x)-1)):
         out[i] = x[i] + gamma*out[i+1]
     assert x.ndim >= 1
     # More efficient version:
@@ -278,7 +277,7 @@ def compute_entropy(x):
     H(x) = - sum( p * log(p))
     """
     H = 0.0
-    for i in xrange(len(x)):
+    for i in range(len(x)):
         if 0 < x[i] < 1:
             H -= x[i] * np.log(x[i])
     return H

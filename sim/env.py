@@ -1,8 +1,11 @@
-import os
+import os, sys
 import numpy as np
+import math
 
 RANDOM_SEED = None
-RANDOM_SEED = 10
+
+# weighed parameters of QoE metric
+RHO = 1
 
 class Environment:
     """
@@ -46,16 +49,24 @@ class Environment:
         # -- network configuration --
         # 클러스터 갯수를 랜덤으로 지정
         self.num_of_cluster = np.random.randint(low=num_of_cluster_low, high=num_of_cluster_high)
+        self.num_of_cluster_low = num_of_cluster_low
+        self.num_of_cluster_high = num_of_cluster_high
         # 각 클러스터 안에 포함된 클라이언트의 수
         self.num_of_client_in_each_cluster = np.random.randint(low=num_of_client_low, high=num_of_client_high, size=self.num_of_cluster)
+        self.num_of_client_low = num_of_client_low
+        self.num_of_client_high = num_of_client_high
         
         # -- trace --
         # cooked directory에 있는 모든 트레이스 파일
         self.trace_files_all = Environment.get_trace_files(trace_dir)
+        self.trace_dir = trace_dir
         # trace file 중에서 클러스터 갯수만큼 랜덤으로 trace들을 선택함
         self.selected_traces = self.get_random_traces(self.trace_files_all, self.num_of_cluster)
         # get_remb_of_cluster_head() 함수를 부를 때 마다 bandwidth를 변경하기 위해서 존재함
         self.trace_iterator = 0
+        
+        self.video_length = np.random.randint(low=60, high=300)
+        self.counter = 0
         
     def get_random_traces(self, traces, size):
         """
@@ -88,9 +99,10 @@ class Environment:
             bw = self.selected_traces[i][idx_r]
             remb_list.append(bw)
         self.trace_iterator += 1
+        self.current_rembs = remb_list
         return remb_list
     
-    def set_bitrate_of_streams(self, bitrates_of_streams, rembs):
+    def set_bitrate_of_streams(self, bitrates_of_streams):
         """
         각 stream을 설정해주면 Utility를 계산해서 되돌려줌.
         """
@@ -101,11 +113,23 @@ class Environment:
         diff_from_last_bitrate = 0
         
         # QoE
+        qoe_quality = 0
+        qoe_distortion = 0
+        qoe_latency = 0
+        
         for i in range(len(bitrates_of_streams)):
-             qoe += self.num_of_client_in_each_cluster[i]
-                
+            remb = self.current_rembs[i]
+            br = bitrates_of_streams[i]
+            num_of_clients = self.num_of_client_in_each_cluster[i]
+            
+            qoe_quality += self.quality(br)
+            qoe_distortion += self.quality(br) * self.distortion(remb, br)
+            qoe_latency += self.quality(br) * (self.latency() / 1000)
+             
+        qoe = qoe_quality - qoe_distortion - qoe_latency
+        
         # fairness
-        fairness = self.fairness(bitrates_of_streams, rembs)
+        fairness = self.num_of_cluster * (1 - self.fairness(bitrates_of_streams, self.current_rembs))
         
         # hardware
         
@@ -113,14 +137,60 @@ class Environment:
         
         utility = qoe - fairness
         
-        return utility
+        self.end_of_video = False
+        self.counter += 1
+        if self.counter > self.video_length:
+            self.end_of_video = True
+            self.reset_all_params()
+        
+        return utility, self.end_of_video
     
-    def fairness(self, streams, remb):
+    def reset_all_params(self):
+        self.num_of_cluster = np.random.randint(low=self.num_of_cluster_low, high=self.num_of_cluster_high)
+        self.num_of_client_in_each_cluster = np.random.randint(low=self.num_of_client_low, high=self.num_of_client_high, size=self.num_of_cluster)
+        self.trace_files_all = Environment.get_trace_files(self.trace_dir)
+        self.selected_traces = self.get_random_traces(self.trace_files_all, self.num_of_cluster)
+        self.trace_iterator = 0
+        self.counter = 0
+    
+    ###
+    
+    def fairness(self, streams, rembs):
+        """
+        rebms가 0인 경우는 무시하고 계산.
+        """
         frac = []
         for i in range(len(streams)):
-            frac.append(streams[i] / rembs[i])
+            if rembs[i] != 0:
+                frac.append(streams[i] / rembs[i])
 
         a = sum(frac) ** 2
         b = len(frac) * sum(list(map(lambda x: x**2, frac)))
+        
+        if sum(frac) == 0:
+            return 1
 
         return a / b
+    
+    def quality(self, q):
+        if q <= 0:
+            return 0
+        else:
+            return np.log2(q)
+    
+    def distortion(self, remb, bitrate):
+        if remb >= bitrate:
+            return 0
+        else:
+            if remb == 0:
+                return 0
+            else:
+                return (bitrate - remb) / remb
+        
+    def latency(self):
+        return 80
+    
+    def hardware(self, streams):
+        return sum(streams)**1.5
+    
+    
