@@ -74,6 +74,7 @@ class Environment:
         """
         
         random_trace_files = np.random.choice(traces, size=size, replace=False)
+        self.selected_trace_files = random_trace_files
         
         traces = []
         for path in random_trace_files:
@@ -82,7 +83,7 @@ class Environment:
                 for line in f:
                     line = line.decode()
                     throughput = int(line)
-                    bws.append(throughput * 8 / 1000000) # Convert from Byte to Mbps
+                    bws.append(throughput * 8 / 1000) # Convert from Byte to Kbps
             traces.append(bws)
                     
         return traces

@@ -1,7 +1,6 @@
 import numpy as np
 import tensorflow as tf
-import tflearn
-
+from tensorflow import keras
 
 GAMMA = 0.99
 A_DIM = 30
@@ -31,61 +30,62 @@ class ActorNetwork(object):
 
         # Get all network parameters
         self.network_params = \
-            tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope='actor')
+            tf.compat.v1.get_collection(tf.compat.v1.GraphKeys.TRAINABLE_VARIABLES, scope='actor')
 
         # Set all network parameters
         self.input_network_params = []
         for param in self.network_params:
-            self.input_network_params.append(
-                tf.placeholder(tf.float32, shape=param.get_shape()))
+            self.input_network_params.append(tf.compat.v1.placeholder(tf.float32, shape=param.get_shape()))
         self.set_network_params_op = []
         for idx, param in enumerate(self.input_network_params):
             self.set_network_params_op.append(self.network_params[idx].assign(param))
 
-        # Selected action, 0-1 vector
-        self.acts = tf.placeholder(tf.float32, [None, self.a_dim])
+        # Selected action
+        self.acts = tf.compat.v1.placeholder(tf.float32, [None, self.a_dim])
 
         # This gradient will be provided by the critic network
-        self.act_grad_weights = tf.placeholder(tf.float32, [None, 1])
+        # Time Diffence Error
+        self.act_grad_weights = tf.compat.v1.placeholder(tf.float32, [None, 1])
 
-        # Compute the objective (log action_vector and entropy)
-        self.obj = tf.reduce_sum(tf.multiply(
-                       tf.log(tf.reduce_sum(tf.multiply(self.out, self.acts),
-                                            reduction_indices=1, keep_dims=True)),
-                       -self.act_grad_weights)) \
-                   + ENTROPY_WEIGHT * tf.reduce_sum(tf.multiply(self.out,
-                                                           tf.log(self.out + ENTROPY_EPS)))
+        # policy loss
+        action_prob = tf.reduce_sum(tf.multiply(self.out, self.acts), reduction_indices=1, keepdims=True)
+        cross_entropy = tf.math.log(action_prob)
+        cross_entropy = tf.multiply(cross_entropy, self.act_grad_weights)
+        cross_entropy = -tf.reduce_sum(cross_entropy)
+        
+        # 탐색을 지속적으로 하기위한 엔트로피 오류
+        entropy = tf.multiply(self.out, tf.math.log(self.out + ENTROPY_EPS))
+        entropy = tf.reduce_sum(entropy)
+        
+        # 두 오류함수를 더해 최종 오류함수를 만듬
+        self.obj =  cross_entropy + ENTROPY_WEIGHT * entropy
 
         # Combine the gradients here
+        # gradient를 직접 계산
         self.actor_gradients = tf.gradients(self.obj, self.network_params)
 
         # Optimization Op
-        self.optimize = tf.train.RMSPropOptimizer(self.lr_rate).\
+        self.optimize = tf.compat.v1.train.RMSPropOptimizer(self.lr_rate).\
             apply_gradients(zip(self.actor_gradients, self.network_params))
 
-    def create_actor_network(self):
-        with tf.variable_scope('actor'):
-            inputs = tflearn.input_data(shape=[None, self.s_dim[0], self.s_dim[1]])
+    def create_actor_network(self):        
+        with tf.compat.v1.variable_scope('actor'):
+            inputs = keras.Input(shape=[self.s_dim[0], self.s_dim[1]])
+            
+            split_0 = keras.layers.Conv1D(128, (4), activation='relu', padding='same')(inputs[:, 0:1, :])
+            split_1 = keras.layers.Conv1D(128, (4), activation='relu', padding='same')(inputs[:, 1:2, :])
+            split_2 = keras.layers.Dense(128, activation='relu')(inputs[:, 2:3, -1])
+            split_3 = keras.layers.Dense(128, activation='relu')(inputs[:, 3:4, -1])
+            split_4 = keras.layers.Dense(128, activation='relu')(inputs[:, 4:5, -1])
 
-            # list of remb
-            split_0 = tflearn.conv_1d(inputs[:, 0:1, :], 128, 4, activation='relu')
-            # list of number of clients
-            split_1 = tflearn.conv_1d(inputs[:, 1:2, :], 128, 4, activation='relu')
-            # hardware resource usage
-            split_2 = tflearn.fully_connected(inputs[:, 2:3, -1], 128, activation='relu')
-            # bandwidth of server
-            split_3 = tflearn.fully_connected(inputs[:, 3:4, -1], 128, activation='relu')
-            # bitrate of source video
-            split_4 = tflearn.fully_connected(inputs[:, 4:5, -1], 128, activation='relu')
+            split_0_flat = keras.layers.Flatten()(split_0)
+            split_1_flat = keras.layers.Flatten()(split_1)
 
-            split_0_flat = tflearn.flatten(split_0)
-            split_1_flat = tflearn.flatten(split_1)
-
-            merge_net = tflearn.merge([split_0_flat, split_1_flat, split_2, split_3, split_4], 'concat')
-
-            dense_net_0 = tflearn.fully_connected(merge_net, 1024, activation='relu')
-            out = tflearn.fully_connected(dense_net_0, self.a_dim, activation='linear')
-
+            merge_net = keras.layers.Concatenate(axis=1)([split_0_flat, split_1_flat, split_2, split_3, split_4])
+            dense_net_0 = keras.layers.Dense(1024, activation='relu')(merge_net)
+            
+            out = keras.layers.Dense(30, activation='linear')(dense_net_0)
+            
             return inputs, out
 
     def train(self, inputs, acts, act_grad_weights):
@@ -137,55 +137,50 @@ class CriticNetwork(object):
 
         # Get all network parameters
         self.network_params = \
-            tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope='critic')
+            tf.compat.v1.get_collection(tf.compat.v1.GraphKeys.TRAINABLE_VARIABLES, scope='critic')
 
         # Set all network parameters
         self.input_network_params = []
         for param in self.network_params:
             self.input_network_params.append(
-                tf.placeholder(tf.float32, shape=param.get_shape()))
+                tf.compat.v1.placeholder(tf.float32, shape=param.get_shape()))
         self.set_network_params_op = []
         for idx, param in enumerate(self.input_network_params):
             self.set_network_params_op.append(self.network_params[idx].assign(param))
 
         # Network target V(s)
-        self.td_target = tf.placeholder(tf.float32, [None, 1])
+        self.td_target = tf.compat.v1.placeholder(tf.float32, [None, 1])
 
         # Temporal Difference, will also be weights for actor_gradients
         self.td = tf.subtract(self.td_target, self.out)
 
         # Mean square error
-        self.loss = tflearn.mean_square(self.td_target, self.out)
+        self.loss = keras.losses.mean_squared_error(self.out, self.td_target)
 
         # Compute critic gradient
         self.critic_gradients = tf.gradients(self.loss, self.network_params)
 
         # Optimization Op
-        self.optimize = tf.train.RMSPropOptimizer(self.lr_rate).\
+        self.optimize = tf.compat.v1.train.RMSPropOptimizer(self.lr_rate).\
             apply_gradients(zip(self.critic_gradients, self.network_params))
 
     def create_critic_network(self):
-        with tf.variable_scope('critic'):
-            inputs = tflearn.input_data(shape=[None, self.s_dim[0], self.s_dim[1]])
+        with tf.compat.v1.variable_scope('critic'):
+            inputs = keras.Input(shape=[self.s_dim[0], self.s_dim[1]])
+            
+            split_0 = keras.layers.Conv1D(128, (4), activation='relu', padding='same')(inputs[:, 0:1, :])
+            split_1 = keras.layers.Conv1D(128, (4), activation='relu', padding='same')(inputs[:, 1:2, :])
+            split_2 = keras.layers.Dense(128, activation='relu')(inputs[:, 2:3, -1])
+            split_3 = keras.layers.Dense(128, activation='relu')(inputs[:, 3:4, -1])
+            split_4 = keras.layers.Dense(128, activation='relu')(inputs[:, 4:5, -1])
 
-            # list of remb
-            split_0 = tflearn.conv_1d(inputs[:, 0:1, :], 128, 4, activation='relu')
-            # list of number of clients
-            split_1 = tflearn.conv_1d(inputs[:, 1:2, :], 128, 4, activation='relu')
-            # hardware resource usage
-            split_2 = tflearn.fully_connected(inputs[:, 2:3, -1], 128, activation='relu')
-            # bandwidth of server
-            split_3 = tflearn.fully_connected(inputs[:, 3:4, -1], 128, activation='relu')
-            # bitrate of source video
-            split_4 = tflearn.fully_connected(inputs[:, 4:5, -1], 128, activation='relu')
+            split_0_flat = keras.layers.Flatten()(split_0)
+            split_1_flat = keras.layers.Flatten()(split_1)
 
-            split_0_flat = tflearn.flatten(split_0)
-            split_1_flat = tflearn.flatten(split_1)
-
-            merge_net = tflearn.merge([split_0_flat, split_1_flat, split_2, split_3, split_4], 'concat')
-
-            dense_net_0 = tflearn.fully_connected(merge_net, 128, activation='relu')
-            out = tflearn.fully_connected(dense_net_0, 1, activation='linear')
+            merge_net = keras.layers.Concatenate(axis=1)([split_0_flat, split_1_flat, split_2, split_3, split_4])
+            dense_net_0 = keras.layers.Dense(1024, activation='relu')(merge_net)
+            
+            out = keras.layers.Dense(1, activation='linear')(dense_net_0)
 
             return inputs, out
 
@@ -234,23 +229,36 @@ def compute_gradients(s_batch, a_batch, r_batch, terminal, actor, critic):
     """
     assert s_batch.shape[0] == a_batch.shape[0]
     assert s_batch.shape[0] == r_batch.shape[0]
+    
     ba_size = s_batch.shape[0]
 
+    # 각 state에서 미래의 보상에 대해서 예측함.
     v_batch = critic.predict(s_batch)
 
+    # 각 state에서 미래의 보상의 합까지 계산할 vector
     R_batch = np.zeros(r_batch.shape)
 
+    # terminal : 비디오의 마지막 덩어리인지 아닌지.
     if terminal:
+        # 비디오가 끝나면 마지막에는 예측할 값이 없음.
         R_batch[-1, 0] = 0  # terminal state
     else:
+        # 비디오가 끝나지 않았음으로 마지막도 예측된 결과를 계산
         R_batch[-1, 0] = v_batch[-1, 0]  # boot strap from last state
 
+    # 현재 reward + discount factor * 미래의가치를 계산
     for t in reversed(range(ba_size - 1)):
+        # 현재 reward + discount * 미래의 reward 예측치.
         R_batch[t, 0] = r_batch[t] + GAMMA * R_batch[t + 1, 0]
 
+    # TD Error ((현재 reward + discount factor * 미래예측) - BASELINE)
+    # 여기서 baseline은 현재 state에서 미래에 받을 것 같은 예측치
     td_batch = R_batch - v_batch
 
+    
     actor_gradients = actor.get_gradients(s_batch, a_batch, td_batch)
+    
+    # feed를 하게되면 mean squre error를 통해 업데이트를 하게됨
     critic_gradients = critic.get_gradients(s_batch, R_batch)
 
     return actor_gradients, critic_gradients, td_batch
@@ -285,13 +293,13 @@ def compute_entropy(x):
 
 def build_summaries():
     td_loss = tf.Variable(0.)
-    tf.summary.scalar("TD_loss", td_loss)
+    tf.compat.v1.summary.scalar("TD_loss", td_loss)
     eps_total_reward = tf.Variable(0.)
-    tf.summary.scalar("Eps_total_reward", eps_total_reward)
+    tf.compat.v1.summary.scalar("Eps_total_reward", eps_total_reward)
     avg_entropy = tf.Variable(0.)
-    tf.summary.scalar("Avg_entropy", avg_entropy)
+    tf.compat.v1.summary.scalar("Avg_entropy", avg_entropy)
 
     summary_vars = [td_loss, eps_total_reward, avg_entropy]
-    summary_ops = tf.summary.merge_all()
+    summary_ops = tf.compat.v1.summary.merge_all()
 
     return summary_ops, summary_vars

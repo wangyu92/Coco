@@ -6,6 +6,7 @@ os.environ['CUDA_VISIBLE_DEVICES']=''
 import tensorflow as tf
 import env
 import a3c
+import rl_test
 
 # === State ====
 # 1. List of REMB*
@@ -16,13 +17,16 @@ import a3c
 S_INFO = 5
 S_LEN = 30  # the number of maximum cluster head
 A_DIM = 30
-ACTOR_LR_RATE = 0.0001
-CRITIC_LR_RATE = 0.001
+
+ACTOR_LR_RATE = 0.00001
+CRITIC_LR_RATE = 0.0001
+
 NUM_AGENTS = 16
 TRAIN_SEQ_LEN = 100  # take as a train batch
 MODEL_SAVE_INTERVAL = 100
+
 RANDOM_SEED = 42
-RAND_RANGE = 1000
+
 SUMMARY_DIR = './results'
 LOG_FILE = './results/log'
 TEST_LOG_FOLDER = './test_results/'
@@ -36,7 +40,8 @@ def testing(epoch, nn_model, log_file):
     os.system('mkdir ' + TEST_LOG_FOLDER)
     
     # run test script
-    os.system('python rl_test.py ' + nn_model)
+#     os.system('python rl_test_keras.py ' + nn_model)
+    rl_test.main(nn_model)
     
     # append test performance to the log
     rewards = []
@@ -61,41 +66,30 @@ def testing(epoch, nn_model, log_file):
     rewards_95per = np.percentile(rewards, 95)
     rewards_max = np.max(rewards)
 
-    log_file.write(str(epoch) + '\t' +
-                   str(rewards_min) + '\t' +
-                   str(rewards_5per) + '\t' +
-                   str(rewards_mean) + '\t' +
-                   str(rewards_median) + '\t' +
-                   str(rewards_95per) + '\t' +
-                   str(rewards_max) + '\n')
+    msg = str(epoch) + '\t' + str(rewards_min) + '\t' + str(rewards_5per) + '\t' + str(rewards_mean) + '\t' + str(rewards_median) + '\t' + str(rewards_95per) + '\t' + str(rewards_max) + '\n'
+    log_file.write(msg.encode())
     log_file.flush()
 
 def central_agent(net_params_queues, exp_queues):
     """
     The main agent receive parameters and update the main NN.
     """
-
     assert len(net_params_queues) == NUM_AGENTS
     assert len(exp_queues) == NUM_AGENTS
 
-    logging.basicConfig(filename=LOG_FILE + '_central',
-                        filemode='w',
-                        level=logging.INFO)
+    logging.basicConfig(filename=LOG_FILE + '_central', filemode='w', level=logging.INFO)
+    log_file_central = open(LOG_FILE + '_central', 'w')
 
-    with tf.Session() as sess, open(LOG_FILE + '_test', 'wb') as test_log_file:
-
-        actor = a3c.ActorNetwork(sess,
-                                 state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
-                                 learning_rate=ACTOR_LR_RATE)
-        critic = a3c.CriticNetwork(sess,
-                                   state_dim=[S_INFO, S_LEN],
-                                   learning_rate=CRITIC_LR_RATE)
+    with tf.compat.v1.Session() as sess, open(LOG_FILE + '_test', 'wb') as test_log_file: 
+        
+        actor = a3c.ActorNetwork(sess, state_dim=[S_INFO, S_LEN], action_dim=A_DIM, learning_rate=ACTOR_LR_RATE)
+        critic = a3c.CriticNetwork(sess, state_dim=[S_INFO, S_LEN], learning_rate=CRITIC_LR_RATE)
 
         summary_ops, summary_vars = a3c.build_summaries()
 
-        sess.run(tf.global_variables_initializer())
+        sess.run(tf.compat.v1.global_variables_initializer())
         writer = tf.summary.FileWriter(SUMMARY_DIR, sess.graph)  # training monitor
-        saver = tf.train.Saver()  # save neural net parameters
+        saver = tf.compat.v1.train.Saver()  # save neural net parameters
 
         # restore neural net parameters
         nn_model = NN_MODEL
@@ -108,6 +102,7 @@ def central_agent(net_params_queues, exp_queues):
         # assemble experiences from agents, compute the gradients
         while True:
             # synchronize the network parameters of work agent
+            # 글로벌 네트워크의 파라미터를 가져와서 각 worker agent에 저장.
             actor_net_params = actor.get_network_params()
             critic_net_params = critic.get_network_params()
             for i in range(NUM_AGENTS):
@@ -172,35 +167,31 @@ def central_agent(net_params_queues, exp_queues):
             avg_td_loss = total_td_loss / total_batch_len
             avg_entropy = total_entropy / total_batch_len
 
-            logging.info('Epoch: ' + str(epoch) +
-                         ' TD_loss: ' + str(avg_td_loss) +
-                         ' Avg_reward: ' + str(avg_reward) +
-                         ' Avg_entropy: ' + str(avg_entropy))
+            logging.info('Epoch: ' + str(epoch) + ' TD_loss: ' + str(avg_td_loss) + ' Avg_reward: ' + str(avg_reward) + ' Avg_entropy: ' + str(avg_entropy))
+            log_file_central.write('Epoch: ' + str(epoch) + ' TD_loss: ' + str(avg_td_loss) + ' Avg_reward: ' + str(avg_reward) + ' Avg_entropy: ' + str(avg_entropy) + '\n')
 
             summary_str = sess.run(summary_ops, feed_dict={
                 summary_vars[0]: avg_td_loss,
                 summary_vars[1]: avg_reward,
                 summary_vars[2]: avg_entropy
             })
-
-            writer.add_summary(summary_str, epoch)
-            writer.flush()
-
+            
             if epoch % MODEL_SAVE_INTERVAL == 0:
                 # Save the neural net parameters to disk.
+                # 학습된 모델을 저장.
                 save_path = saver.save(sess, SUMMARY_DIR + "/nn_model_ep_" +
                                        str(epoch) + ".ckpt")
                 logging.info("Model saved in file: " + save_path)
-                testing(epoch, 
-                    SUMMARY_DIR + "/nn_model_ep_" + str(epoch) + ".ckpt", 
-                    test_log_file)
+                log_file_central.write("Model saved in file: " + save_path + '\n')
+                
+#                 testing(epoch, SUMMARY_DIR + "/nn_model_ep_" + str(epoch) + ".ckpt", test_log_file)
 
 
 def agent(agent_id, net_params_queue, exp_queue):
 
     net_env = env.Environment(num_of_cluster_high=S_LEN)
 
-    with tf.Session() as sess, open(LOG_FILE + '_agent_' + str(agent_id), 'wb') as log_file:
+    with tf.compat.v1.Session() as sess, open(LOG_FILE + '_agent_' + str(agent_id), 'wb') as log_file:
         actor = a3c.ActorNetwork(sess,
                                  state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
                                  learning_rate=ACTOR_LR_RATE)
@@ -213,7 +204,7 @@ def agent(agent_id, net_params_queue, exp_queue):
         actor.set_network_params(actor_net_params)
         critic.set_network_params(critic_net_params)
 
-        s_batch = [np.zeros((S_INFO, S_LEN))]
+        s_batch = []
         a_batch = []
         r_batch = []
         entropy_record = []
@@ -222,6 +213,7 @@ def agent(agent_id, net_params_queue, exp_queue):
         while True:  # experience video streaming forever
             rembs = net_env.get_remb_of_cluster_head()
             
+            # 새로운 비디오가 시작되면 1부터 시작
             if net_env.trace_iterator == 1:
                 del s_batch[:]
                 del a_batch[:]
@@ -232,26 +224,21 @@ def agent(agent_id, net_params_queue, exp_queue):
                 state = np.zeros((S_INFO, S_LEN))
             else:
                 state = np.array(s_batch[-1], copy=True)
-            
-            # 펜시브에서는 결국 히스토리를 계속 누적시키고, expire된 것은 없애기 위해서 roll을 했음.
-            # 우리의 경우 bitrate의 리스트를 넣어주기 때문에 누적되지 않고 없어짐.
-            # 따라서, 그대로 따라해도 큰 문제는 없을 것으로 보임.
-            state = np.roll(state, -1, axis=1)
-            
+                
             cpu_usage = 0
             bandwidth = 10000000
             source_bitrate = 10000
             
             remain_size = A_DIM - len(rembs)
             n_clients = net_env.num_of_client_in_each_cluster
-            state[0, :A_DIM] = np.pad(rembs, (0, remain_size), 'constant')
-            state[1, :A_DIM] = np.pad(n_clients, (0, remain_size), 'constant')
+            state[0, :] = np.pad(rembs, (0, remain_size), 'constant')
+            state[1, :] = np.pad(n_clients, (0, remain_size), 'constant')
             state[2, -1] = cpu_usage # cpu
             state[3, -1] = bandwidth # bandwidth
             state[4, -1] = source_bitrate # source video
             
             action = actor.predict(np.reshape(state, (1, S_INFO, S_LEN)))
-            action.clip(min=0)
+            action = action.clip(min=0)
             listofbitrates = action.flatten().tolist()
             listofbitrates = listofbitrates[:len(rembs)]
             
@@ -279,8 +266,6 @@ def agent(agent_id, net_params_queue, exp_queue):
 
                 # synchronize the network parameters from the coordinator
                 actor_net_params, critic_net_params = net_params_queue.get()
-                actor.set_network_params(actor_net_params)
-                critic.set_network_params(critic_net_params)
 
                 del s_batch[:]
                 del a_batch[:]
@@ -288,8 +273,7 @@ def agent(agent_id, net_params_queue, exp_queue):
                 del entropy_record[:]
 
                 log_file.write('\n'.encode())  # so that in the log we know where video ends
-
-
+                
 def main():
 
     np.random.seed(RANDOM_SEED)
