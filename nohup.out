@@ -1276,3 +1276,879 @@ Skipping registering GPU devices...
 [I 21:12:12.422 LabApp] Saving file at /a3c-tf2/Deep Reinforcement Learning with TF 2.0.ipynb
 [I 21:14:12.489 LabApp] Saving file at /a3c-tf2/Deep Reinforcement Learning with TF 2.0.ipynb
 [I 21:22:12.581 LabApp] Saving file at /a3c-tf2/Deep Reinforcement Learning with TF 2.0.ipynb
+[I 21:28:12.663 LabApp] Saving file at /a3c-tf2/Deep Reinforcement Learning with TF 2.0.ipynb
+[I 21:28:41.254 LabApp] Saving file at /a3c-tf2/Deep Reinforcement Learning with TF 2.0.ipynb
+[I 21:28:46.715 LabApp] Saving file at /a3c-tf2/Deep Reinforcement Learning with TF 2.0.ipynb
+[I 21:29:00.235 LabApp] Saving file at /a3c-tf2/Deep Reinforcement Learning with TF 2.0.ipynb
+[I 21:29:44.340 LabApp] Creating new notebook in /a3c-tf2
+[I 21:29:44.463 LabApp] Kernel started: de4f7c41-3245-45da-be65-00e08d037087
+[I 21:29:44.828 LabApp] Adapting to protocol v5.1 for kernel de4f7c41-3245-45da-be65-00e08d037087
+[I 21:29:56.736 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:30:56.054 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:31:03.229 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:39:03.294 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:41:03.353 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:43:03.413 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:45:03.476 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:45:38.061 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:49:38.122 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:49:56.918 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:01:56.998 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:03:26.791 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:03:45.447 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:05:23.840 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:05:39.540 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:06:00.625 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:08:00.673 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:09:10.481 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:09:15.255 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:09:28.724 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:19:28.805 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:21:08.031 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:21:39.839 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:22:22.969 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:24:16.090 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:24:21.250 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:24:54.551 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:26:31.582 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:26:40.386 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:27:32.986 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:27:36.707 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:28:56.492 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:30:56.923 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:31:16.070 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:31:33.685 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:32:35.906 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:32:36.347 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:32:38.186 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:33:06.164 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:35:06.212 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:36:42.006 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:37:13.122 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:38:18.177 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:38:57.406 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:39:36.785 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:39:38.074 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:39:38.994 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:40:16.540 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:40:18.368 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:40:34.761 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:41:19.363 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:41:40.231 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:41:46.892 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:44:07.454 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:45:45.983 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:45:55.867 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:46:03.868 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:46:32.220 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+2019-09-30 22:46:41.087630: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-09-30 22:46:41.101249: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-09-30 22:46:41.102057: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-09-30 22:46:41.102822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-09-30 22:46:41.102888: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-09-30 22:46:41.102921: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-09-30 22:46:41.102949: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-09-30 22:46:41.102979: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-09-30 22:46:41.103008: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-09-30 22:46:41.103036: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-09-30 22:46:41.103065: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-09-30 22:46:41.103070: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-09-30 22:46:41.103241: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-09-30 22:46:41.128362: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-09-30 22:46:41.129742: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555b42a5e540 executing computations on platform Host. Devices:
+2019-09-30 22:46:41.129799: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-09-30 22:46:41.783138: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555b42b110b0 executing computations on platform CUDA. Devices:
+2019-09-30 22:46:41.783218: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-09-30 22:46:41.783235: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-09-30 22:46:41.783246: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-09-30 22:46:41.783883: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-30 22:46:41.783909: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 22:46:59.173 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:47:28.942 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:49:29.007 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:49:32.923 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:49:55.167 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:50:35.553 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:50:56.424 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:52:25.908 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:52:39.650 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:19.382 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:39.839 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:55:39.905 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:57:39.972 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:59:40.040 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:01:40.109 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:03:00.950 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 23:04:31.866 LabApp] Starting buffering for de4f7c41-3245-45da-be65-00e08d037087:9a4ea4d4-9e55-4af3-801a-be6bf5da28de
+[I 23:04:32.581 LabApp] Kernel restarted: de4f7c41-3245-45da-be65-00e08d037087
+[I 23:04:32.974 LabApp] Adapting to protocol v5.1 for kernel de4f7c41-3245-45da-be65-00e08d037087
+[I 23:04:32.976 LabApp] Restoring connection for de4f7c41-3245-45da-be65-00e08d037087:9a4ea4d4-9e55-4af3-801a-be6bf5da28de
+[I 23:04:32.976 LabApp] Replaying 6 buffered messages
+[I 23:05:40.183 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 03:32:38.958 LabApp] Starting buffering for de4f7c41-3245-45da-be65-00e08d037087:9a4ea4d4-9e55-4af3-801a-be6bf5da28de
+[I 13:24:14.059 LabApp] Adapting to protocol v5.1 for kernel de4f7c41-3245-45da-be65-00e08d037087
+[I 13:25:12.300 LabApp] Starting buffering for de4f7c41-3245-45da-be65-00e08d037087:84bebd20-c714-433f-ad8c-31f8452641a6
+[I 13:25:12.813 LabApp] Kernel restarted: de4f7c41-3245-45da-be65-00e08d037087
+[I 13:25:13.157 LabApp] Adapting to protocol v5.1 for kernel de4f7c41-3245-45da-be65-00e08d037087
+[I 13:25:13.158 LabApp] Restoring connection for de4f7c41-3245-45da-be65-00e08d037087:84bebd20-c714-433f-ad8c-31f8452641a6
+[I 13:25:13.158 LabApp] Replaying 5 buffered messages
+[I 13:26:13.906 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 13:30:27.191 LabApp] Adapting to protocol v5.1 for kernel 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:40:37.925 LabApp] Starting buffering for 61fff86d-c6cc-4b35-952c-cd63fa67c342:c6c46e41-eb23-433a-b5a0-e46046aa8a22
+[I 13:40:43.606 LabApp] Kernel restarted: 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:40:43.911 LabApp] Adapting to protocol v5.1 for kernel 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:40:43.912 LabApp] Discarding 6 buffered messages for 61fff86d-c6cc-4b35-952c-cd63fa67c342:c6c46e41-eb23-433a-b5a0-e46046aa8a22
+[I 13:40:43.939 LabApp] Adapting to protocol v5.1 for kernel 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:41:43.067 LabApp] Starting buffering for 61fff86d-c6cc-4b35-952c-cd63fa67c342:c6c46e41-eb23-433a-b5a0-e46046aa8a22
+[I 13:41:43.580 LabApp] Kernel restarted: 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:41:43.912 LabApp] Adapting to protocol v5.1 for kernel 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:41:43.913 LabApp] Discarding 3 buffered messages for 61fff86d-c6cc-4b35-952c-cd63fa67c342:c6c46e41-eb23-433a-b5a0-e46046aa8a22
+[I 13:41:43.938 LabApp] Adapting to protocol v5.1 for kernel 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:42:26.862 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 13:43:45.356 LabApp] Starting buffering for de4f7c41-3245-45da-be65-00e08d037087:84bebd20-c714-433f-ad8c-31f8452641a6
+[I 13:43:45.358 LabApp] Starting buffering for 61fff86d-c6cc-4b35-952c-cd63fa67c342:c6c46e41-eb23-433a-b5a0-e46046aa8a22
+[I 13:43:46.559 LabApp] Node v8.10.0
+    
+[I 13:43:46.562 LabApp] Build is up to date
+[I 13:43:47.996 LabApp] Adapting to protocol v5.1 for kernel 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:43:48.121 LabApp] Adapting to protocol v5.1 for kernel de4f7c41-3245-45da-be65-00e08d037087
+[I 13:43:50.933 LabApp] Starting buffering for 61fff86d-c6cc-4b35-952c-cd63fa67c342:5e5faa17-5d42-40c1-abd6-b5f731afdcce
+[I 13:43:51.446 LabApp] Kernel restarted: 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:43:51.780 LabApp] Adapting to protocol v5.1 for kernel 61fff86d-c6cc-4b35-952c-cd63fa67c342
+[I 13:43:51.781 LabApp] Restoring connection for 61fff86d-c6cc-4b35-952c-cd63fa67c342:5e5faa17-5d42-40c1-abd6-b5f731afdcce
+[I 13:43:51.781 LabApp] Replaying 6 buffered messages
+[I 13:43:55.846 LabApp] Adapting to protocol v5.1 for kernel de4f7c41-3245-45da-be65-00e08d037087
+[I 13:45:47.371 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 21:13:03.574 LabApp] Writing notebook server cookie secret to /home/wangyu/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 21:13:03.707 LabApp] JupyterLab extension loaded from /home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/jupyterlab
+[I 21:13:03.707 LabApp] JupyterLab application directory is /home/wangyu/miniconda3/envs/tensorflow2.0/share/jupyter/lab
+[I 21:13:03.708 LabApp] Serving notebooks from local directory: /home/wangyu/conda_project/webrtc2019
+[I 21:13:03.708 LabApp] The Jupyter Notebook is running at:
+[I 21:13:03.708 LabApp] http://192.168.1.3:8898/
+[I 21:13:03.709 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:13:03.791 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:03.792 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:03.792 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:03.793 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:03.820 LabApp] 403 GET /api/kernels/68bed40e-8420-44e9-935a-03ad14f4f02d/channels?session_id=d86589e1-1652-47d5-b45e-54268e3f9bf0 (118.36.80.19) 31.17ms referer=None
+[W 21:13:04.273 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:04.274 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:04.274 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:04.275 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:04.276 LabApp] 403 GET /api/kernels/2033931a-8c73-4543-990d-a6d73c0341ab/channels?session_id=ad5929db-6d31-485f-aa9a-74333aadf7be (118.36.80.19) 4.55ms referer=None
+[W 21:13:05.180 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:05.181 LabApp] Forbidden
+[W 21:13:05.181 LabApp] 403 GET /api/contents/conda_project/webrtc2019/a3c-tf2?content=1&1569931983690 (118.36.80.19) 2.06ms referer=http://ms.hanyang.ac.kr:8898/lab?
+[W 21:13:05.840 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:05.842 LabApp] 403 GET /api/kernels/68bed40e-8420-44e9-935a-03ad14f4f02d/channels?session_id=d86589e1-1652-47d5-b45e-54268e3f9bf0 (118.36.80.19) 3.85ms referer=None
+[W 21:13:05.910 LabApp] Forbidden
+[W 21:13:05.910 LabApp] 403 GET /api/sessions?1569931984428 (118.36.80.19) 1.22ms referer=http://ms.hanyang.ac.kr:8898/lab?
+[W 21:13:05.917 LabApp] Forbidden
+[W 21:13:05.918 LabApp] 403 GET /api/terminals?1569931984428 (118.36.80.19) 1.12ms referer=http://ms.hanyang.ac.kr:8898/lab?
+[I 21:13:07.121 LabApp] 302 GET /lab? (118.36.80.19) 0.99ms
+[W 21:13:07.223 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:07.223 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:07.223 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:07.224 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:07.225 LabApp] 403 GET /api/kernels/2033931a-8c73-4543-990d-a6d73c0341ab/channels?session_id=b91f3803-94f8-4619-8d88-8aea182e6ec3 (166.104.231.227) 4.62ms referer=None
+[W 21:13:07.248 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:07.248 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:07.249 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:07.249 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:07.250 LabApp] 403 GET /api/kernels/68bed40e-8420-44e9-935a-03ad14f4f02d/channels?session_id=8ee78ed7-5fab-4d45-b682-550cafe11af6 (166.104.231.227) 4.42ms referer=None
+[I 21:13:09.836 LabApp] 302 POST /login?next=%2Flab%3F (118.36.80.19) 1.78ms
+[W 21:13:11.428 LabApp] 404 GET /api/contents/conda_project/webrtc2019/a3c-tf2?1569931989946 (118.36.80.19): No such file or directory: conda_project/webrtc2019/a3c-tf2
+[W 21:13:11.428 LabApp] No such file or directory: conda_project/webrtc2019/a3c-tf2
+[W 21:13:11.428 LabApp] 404 GET /api/contents/conda_project/webrtc2019/a3c-tf2?1569931989946 (118.36.80.19) 1.74ms referer=http://ms.hanyang.ac.kr:8898/lab?
+[W 21:13:11.430 LabApp] 404 GET /api/contents/conda_project/webrtc2019/a3c-tf2/a2c-continuous-actions.ipynb?content=0&1569931989946 (118.36.80.19): No such file or directory: conda_project/webrtc2019/a3c-tf2/a2c-continuous-actions.ipynb
+[W 21:13:11.431 LabApp] No such file or directory: conda_project/webrtc2019/a3c-tf2/a2c-continuous-actions.ipynb
+[W 21:13:11.431 LabApp] 404 GET /api/contents/conda_project/webrtc2019/a3c-tf2/a2c-continuous-actions.ipynb?content=0&1569931989946 (118.36.80.19) 1.49ms referer=http://ms.hanyang.ac.kr:8898/lab?
+[W 21:13:11.432 LabApp] 404 GET /api/contents/conda_project/webrtc2019/a3c-tf2/a2c-simple-env.ipynb?content=0&1569931989947 (118.36.80.19): No such file or directory: conda_project/webrtc2019/a3c-tf2/a2c-simple-env.ipynb
+[W 21:13:11.432 LabApp] No such file or directory: conda_project/webrtc2019/a3c-tf2/a2c-simple-env.ipynb
+[W 21:13:11.433 LabApp] 404 GET /api/contents/conda_project/webrtc2019/a3c-tf2/a2c-simple-env.ipynb?content=0&1569931989947 (118.36.80.19) 1.48ms referer=http://ms.hanyang.ac.kr:8898/lab?
+[I 21:13:11.508 LabApp] Build is up to date
+[W 21:13:15.288 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:15.288 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:15.289 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:15.289 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:15.291 LabApp] 403 GET /api/kernels/2033931a-8c73-4543-990d-a6d73c0341ab/channels?session_id=b91f3803-94f8-4619-8d88-8aea182e6ec3 (166.104.231.227) 5.43ms referer=None
+[W 21:13:15.313 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:15.313 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:15.314 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:15.314 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:15.316 LabApp] 403 GET /api/kernels/68bed40e-8420-44e9-935a-03ad14f4f02d/channels?session_id=8ee78ed7-5fab-4d45-b682-550cafe11af6 (166.104.231.227) 4.58ms referer=None
+[I 21:13:18.207 LabApp] Kernel started: bd93df23-c686-49d2-8999-751c2fe1f26b
+[I 21:13:28.148 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[W 21:13:32.296 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:32.297 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:32.297 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:32.298 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:32.299 LabApp] 403 GET /api/kernels/68bed40e-8420-44e9-935a-03ad14f4f02d/channels?session_id=8ee78ed7-5fab-4d45-b682-550cafe11af6 (166.104.231.227) 5.42ms referer=None
+[W 21:13:32.322 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:32.322 LabApp] Couldn't authenticate WebSocket connection
+[W 21:13:32.322 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:32.323 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:13:32.324 LabApp] 403 GET /api/kernels/2033931a-8c73-4543-990d-a6d73c0341ab/channels?session_id=b91f3803-94f8-4619-8d88-8aea182e6ec3 (166.104.231.227) 4.56ms referer=None
+2019-10-01 21:13:45.015127: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-01 21:13:45.064428: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-01 21:13:45.065273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-01 21:13:45.066024: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-01 21:13:45.066110: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 21:13:45.066148: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 21:13:45.066181: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 21:13:45.066214: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 21:13:45.066245: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 21:13:45.066275: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 21:13:45.066308: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-01 21:13:45.066314: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-01 21:13:45.066545: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-01 21:13:45.092430: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-01 21:13:45.093687: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b11793ad10 executing computations on platform Host. Devices:
+2019-10-01 21:13:45.093732: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-10-01 21:13:45.807534: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b1178ddf20 executing computations on platform CUDA. Devices:
+2019-10-01 21:13:45.807597: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-01 21:13:45.807614: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-01 21:13:45.807626: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-01 21:13:45.808270: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-01 21:13:45.808299: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 21:13:47.936 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[W 21:14:05.244 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:14:05.244 LabApp] Couldn't authenticate WebSocket connection
+[W 21:14:05.245 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:14:05.246 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:14:05.247 LabApp] 403 GET /api/kernels/68bed40e-8420-44e9-935a-03ad14f4f02d/channels?session_id=8ee78ed7-5fab-4d45-b682-550cafe11af6 (166.104.231.227) 5.13ms referer=None
+[W 21:14:05.314 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:14:05.314 LabApp] Couldn't authenticate WebSocket connection
+[W 21:14:05.314 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:14:05.315 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:14:05.316 LabApp] 403 GET /api/kernels/2033931a-8c73-4543-990d-a6d73c0341ab/channels?session_id=b91f3803-94f8-4619-8d88-8aea182e6ec3 (166.104.231.227) 4.60ms referer=None
+[W 21:15:10.288 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:15:10.288 LabApp] Couldn't authenticate WebSocket connection
+[W 21:15:10.288 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:15:10.289 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:15:10.290 LabApp] 403 GET /api/kernels/68bed40e-8420-44e9-935a-03ad14f4f02d/channels?session_id=8ee78ed7-5fab-4d45-b682-550cafe11af6 (166.104.231.227) 5.28ms referer=None
+[W 21:15:10.313 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:15:10.313 LabApp] Couldn't authenticate WebSocket connection
+[W 21:15:10.314 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:15:10.314 LabApp] Clearing invalid/expired login cookie username-ms-hanyang-ac-kr-8898
+[W 21:15:10.316 LabApp] 403 GET /api/kernels/2033931a-8c73-4543-990d-a6d73c0341ab/channels?session_id=b91f3803-94f8-4619-8d88-8aea182e6ec3 (166.104.231.227) 4.71ms referer=None
+[I 21:15:48.018 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:17:28.387 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:20:21.663 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:22:21.750 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:24:21.816 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:24:48.002 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:24:53.521 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:24:57.560 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:25:21.304 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:25:27.293 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:27:27.363 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:28:26.976 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:30:12.525 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:32:12.591 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:38:12.660 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:38:21.246 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:38:49.985 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:40:50.050 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:41:36.243 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:41:43.042 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:41:47.520 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:43:47.590 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:47:01.951 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:47:06.750 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:47:10.333 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:47:15.688 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:47:18.364 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:48:47.508 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:49:00.730 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:49:51.197 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:52:17.704 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:52:19.542 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:53:38.582 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:54:36.336 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:54:40.898 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:54:48.975 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:55:02.463 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:55:03.246 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:55:10.303 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:55:17.001 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:55:23.957 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:57:13.943 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:57:50.269 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 21:58:42.397 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:00:19.432 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:00:25.114 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:00:48.252 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:01:57.741 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:03:20.730 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:03:48.450 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:03:49.619 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:05:41.536 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:06:04.585 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:06:19.295 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:06:25.008 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:07:13.628 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:07:14.185 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:07:20.559 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:13:42.865 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:13:51.907 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:13:55.019 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:13:57.097 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:15:33.089 LabApp] Starting buffering for bd93df23-c686-49d2-8999-751c2fe1f26b:44db15e1-e461-470f-bd1a-bbf2e25d2086
+[I 22:15:44.679 LabApp] 302 GET / (118.36.80.19) 0.92ms
+[I 22:15:45.826 LabApp] Build is up to date
+[I 22:15:53.699 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:16:39.164 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:16:54.554 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:17:09.202 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:17:22.134 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:18:05.134 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:18:10.101 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:18:17.602 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:18:34.824 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:18:53.408 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:18:57.991 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:19:11.266 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:19:12.783 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:19:22.365 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:19:24.207 LabApp] Kernel started: d6c0d755-0587-46e0-977a-2a49e14e8008
+[I 22:19:48.637 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:19:59.647 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:20:01.017 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:20:07.772 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:20:11.592 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 22:20:14.057 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:29:19.369 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:31:19.434 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:31:32.505 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:31:43.453 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:35:43.510 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:36:27.938 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:37:26.904 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:37:42.119 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:38:07.051 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:38:26.157 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:38:37.181 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:39:35.152 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:41:27.960 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:42:00.839 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:42:09.965 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:42:22.454 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:42:26.610 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:42:49.528 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:42:58.016 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:43:00.926 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:43:07.471 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:43:09.300 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:43:14.268 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:43:25.521 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:44:33.946 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:44:41.204 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:45:12.497 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 22:48:35.962 LabApp] Kernel restarted: bd93df23-c686-49d2-8999-751c2fe1f26b
+[I 22:48:39.941 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:48:43.236 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:49:09.311 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:51:09.391 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:51:21.660 LabApp] Kernel interrupted: bd93df23-c686-49d2-8999-751c2fe1f26b
+[I 22:51:29.117 LabApp] Kernel interrupted: bd93df23-c686-49d2-8999-751c2fe1f26b
+sudo: no tty present and no askpass program specified
+sudo: no tty present and no askpass program specified
+[I 22:51:56.152 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:08.868 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:09.629 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:10.190 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:10.406 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:10.606 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:53:15.043 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:54:34.945 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:54:58.116 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:55:10.434 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:55:28.459 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:57:28.540 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:58:10.757 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:58:17.058 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:58:20.054 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 22:58:44.772 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 22:58:53.809 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:01:03.832 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:01:09.403 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:18.268 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:20.363 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:33.685 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:35.569 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:38.801 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:40.639 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:55.247 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:02:57.644 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:03:02.899 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:03:12.086 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:03:21.961 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:03:43.516 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:04:49.686 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:05:14.599 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:05:22.038 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:05:23.940 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:05:26.880 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:05:47.635 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:05:52.960 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:06:03.378 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:06:19.135 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:06:27.491 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:06:31.740 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:06:36.910 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:06:47.089 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:06:57.606 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:07:03.244 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:07:05.520 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:07:16.743 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:07:18.270 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:07:39.539 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:07:42.026 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:08:00.980 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:08:02.546 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:08:44.074 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:08:44.682 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:09:01.436 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:09:04.899 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:09:19.782 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:09:22.550 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:09:30.168 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:09:46.213 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:09:49.634 LabApp] Starting buffering for bd93df23-c686-49d2-8999-751c2fe1f26b:fe263f47-5f65-4b93-a412-2de2fe437791
+[I 23:09:49.636 LabApp] Starting buffering for d6c0d755-0587-46e0-977a-2a49e14e8008:247b17b6-352a-4c80-9ae1-b04b1206424a
+[I 23:11:03.106 LabApp] Build is up to date
+[I 23:12:31.453 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:12:37.414 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:12:38.587 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:12:54.869 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:13:23.531 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:13:32.398 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:13:43.948 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:13:50.283 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:13:51.740 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:13:56.707 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:03.159 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:05.271 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:07.896 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:08.837 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:12.392 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:14.058 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:28.250 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:54.022 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:14:56.017 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:15:02.654 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:15:20.295 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:15:23.931 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:15:37.779 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:15:41.795 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:16:07.078 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:16:25.611 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:16:29.950 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:16:41.444 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:17:04.160 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:17:07.149 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:17:10.587 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:17:11.901 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:17:24.851 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 23:17:54.998 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:18:05.862 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:18:12.763 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:18:23.405 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:18:37.976 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:18:42.464 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:19:04.914 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:19:28.103 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:19:36.040 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:19:39.911 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:19:44.523 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:19.025 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:20.632 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:24.048 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:25.010 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:25.917 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:26.975 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:33.377 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:35.487 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:36.397 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:38.780 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:41.269 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:43.113 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:20:46.167 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+2019-10-01 23:20:48.323180: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-01 23:20:48.372365: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-01 23:20:48.373187: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-01 23:20:48.373953: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-01 23:20:48.374046: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 23:20:48.374083: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 23:20:48.374115: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 23:20:48.374147: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 23:20:48.374187: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 23:20:48.374218: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-01 23:20:48.374249: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-01 23:20:48.374254: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-01 23:20:48.374493: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-01 23:20:48.404441: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-01 23:20:48.406207: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561fc9367c60 executing computations on platform Host. Devices:
+2019-10-01 23:20:48.406253: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+[I 23:20:48.700 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+2019-10-01 23:20:49.062781: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561fc93c9ee0 executing computations on platform CUDA. Devices:
+2019-10-01 23:20:49.062844: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-01 23:20:49.062860: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-01 23:20:49.062871: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-01 23:20:49.063501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-01 23:20:49.063528: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 23:20:50.635 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:01.312 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:05.133 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:11.631 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:17.121 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:19.165 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:23.904 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:26.544 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:31.272 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:33.092 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:55.351 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:21:58.363 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:22:00.854 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:22:21.506 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:22:31.702 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:22:33.473 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:23:34.359 LabApp] Kernel interrupted: bd93df23-c686-49d2-8999-751c2fe1f26b
+[I 23:24:33.551 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:24:36.254 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:24:48.645 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:24:58.838 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:25:05.595 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:25:09.936 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:25:42.624 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:26:04.100 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:26:17.177 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:26:21.527 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:26:27.332 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:26:43.148 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:27:11.797 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:27:25.106 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:27:26.083 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:27:29.750 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:27:35.204 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:27:57.662 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:27:59.987 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:03.682 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:07.312 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:10.430 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:17.875 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:19.982 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:21.249 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:35.582 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:51.319 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:53.559 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:58.484 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:28:59.085 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:29:16.578 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:29:42.143 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:29:53.025 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:29:54.134 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:29:59.532 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:30:10.380 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:30:20.739 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:30:21.332 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:30:28.393 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:30:33.200 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:30:39.257 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:30:45.589 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:31:05.297 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:31:19.697 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:31:20.599 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:31:23.824 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:31:50.658 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:01.466 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:04.125 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:06.376 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:11.223 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:14.926 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:34.971 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:47.802 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:32:49.022 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:33:10.896 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:33:16.402 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:33:24.305 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:33:24.970 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:33:25.443 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:33:39.056 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:33:57.384 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:34:50.279 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:35:05.375 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:35:09.161 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:35:27.427 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:35:30.892 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:35:39.858 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:35:44.564 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:36:00.168 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:36:00.720 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:36:01.493 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:36:07.796 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:36:38.082 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:36:47.025 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:36:52.211 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:01.670 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:05.001 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:08.756 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:18.095 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:24.534 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:30.822 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:39.512 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:43.939 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:49.825 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:37:55.599 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:00.556 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:04.333 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:05.578 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:09.246 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:12.551 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:18.402 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:33.751 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:41.641 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:45.697 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:53.582 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:38:57.463 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:39:04.718 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:39:09.680 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:39:19.411 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:39:47.533 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 23:40:07.610 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:08.263 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:23.667 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:24.307 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:30.024 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:40.526 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:50.622 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:52.166 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:40:57.486 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+2019-10-01 23:40:58.545634: W tensorflow/core/common_runtime/base_collective_executor.cc:216] BaseCollectiveExecutor::StartAbort Invalid argument: Matrix size-incompatible: In[0]: [1,2], In[1]: [1,40]
+	 [[{{node model_12/dense_37/Elu}}]]
+[I 23:41:00.492 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:41:08.586 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:41:25.675 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:41:41.852 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:41:43.923 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:41:50.029 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:41:52.803 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:43:17.442 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:44:20.066 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:44:23.478 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:44:32.694 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:44:36.846 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:44:46.976 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:44:56.010 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:44:59.628 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:45:02.877 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:45:21.659 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:46:31.618 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:46:38.040 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:47:13.814 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:47:22.702 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:48:38.475 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:48:41.046 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:48:43.999 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:49:17.166 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:49:18.937 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:50:09.600 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:50:11.306 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:50:22.437 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:50:24.959 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:50:50.589 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:50:55.836 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:50:57.632 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:51:00.372 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:51:03.659 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:51:54.409 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:52:01.864 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:52:03.038 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:52:16.082 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:52:16.803 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:52:28.236 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:52:32.386 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:52:33.579 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:27.088 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:35.866 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:37.122 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:37.877 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:40.402 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:44.554 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:52.293 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:53:55.251 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:54:07.668 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:54:19.714 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:54:21.942 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:54:30.431 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:54:41.608 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:54:50.798 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:11.616 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:13.282 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:14.236 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:40.714 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:48.833 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:49.454 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:55.416 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:55:59.465 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:56:00.864 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:56:07.859 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:56:54.341 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:57:02.380 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:57:59.740 LabApp] Kernel interrupted: d6c0d755-0587-46e0-977a-2a49e14e8008
+[I 23:58:05.255 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 23:58:13.581 LabApp] Kernel interrupted: bd93df23-c686-49d2-8999-751c2fe1f26b
+[I 23:58:13.728 LabApp] Kernel interrupted: bd93df23-c686-49d2-8999-751c2fe1f26b
+[I 23:58:18.763 LabApp] Starting buffering for d6c0d755-0587-46e0-977a-2a49e14e8008:c2e0a80d-92a9-4f97-b3ab-e27d001b79a6
+[I 23:58:19.196 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:58:21.750 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:58:28.673 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:58:32.119 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:58:36.334 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:58:42.881 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:58:50.709 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:59:21.481 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:59:22.389 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:59:25.471 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:59:30.063 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 23:59:36.599 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:00:30.394 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:00:35.548 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:00:38.913 LabApp] Starting buffering for d6c0d755-0587-46e0-977a-2a49e14e8008:5a3f4ade-bf17-4893-ada1-0de3fd8e3746
+[I 00:00:39.933 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:00:49.703 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:01:08.290 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:01:09.891 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:01:10.612 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:01:17.106 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:01:29.971 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:01:50.534 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:02:08.812 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:02:17.818 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:02:23.972 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:02:28.920 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:02:30.968 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:03:24.476 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:03:26.157 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:04:13.098 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:04:14.546 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:04:25.835 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:04:34.377 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:05:06.489 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:05:34.370 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:05:43.972 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:05:46.173 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:05:51.741 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:06:34.037 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:06:36.583 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:06:41.607 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:06:45.964 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:06:49.195 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:07:06.659 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:07:14.070 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:07:32.521 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:07:33.305 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:07:42.488 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:08:00.222 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:08:02.213 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:08:21.985 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:08:29.162 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:08:35.899 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:08:38.953 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:08:46.664 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:09:01.403 LabApp] Saving file at /a3c-tf2/a2c-simple-env.ipynb
+[I 00:09:18.496 LabApp] Starting buffering for d6c0d755-0587-46e0-977a-2a49e14e8008:8abbd59b-f601-4728-bbf8-1a9e2a66256d
+[I 00:09:37.801 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:09:40.757 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 00:09:42.751 LabApp] Kernel restarted: bd93df23-c686-49d2-8999-751c2fe1f26b
+[I 00:09:42.774 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+2019-10-02 00:10:01.144957: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-02 00:10:01.205227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-02 00:10:01.206036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-02 00:10:01.206799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-02 00:10:01.206896: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-02 00:10:01.206934: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-02 00:10:01.206965: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-02 00:10:01.206998: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-02 00:10:01.207029: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-02 00:10:01.207060: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-02 00:10:01.207090: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-02 00:10:01.207095: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-02 00:10:01.207336: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-02 00:10:01.240483: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-02 00:10:01.242024: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c7f9c542c0 executing computations on platform Host. Devices:
+2019-10-02 00:10:01.242071: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-10-02 00:10:01.882771: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c7f9c52a60 executing computations on platform CUDA. Devices:
+2019-10-02 00:10:01.882839: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-02 00:10:01.882859: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-02 00:10:01.882872: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-02 00:10:01.883488: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-02 00:10:01.883516: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 00:10:08.453 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:10:17.559 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:10:55.573 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:11:18.428 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:11:25.761 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:11:28.244 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:01.149 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:16.069 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:22.896 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:27.533 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:30.666 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:33.269 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:41.108 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:42.979 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
+[I 00:12:52.989 LabApp] Saving file at /a3c-tf2/a2c-continuous-actions.ipynb
