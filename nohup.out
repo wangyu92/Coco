@@ -4067,3 +4067,672 @@ Websocket closed
 [I 16:45:55.954 LabApp] New terminal with automatic name: 2
 TermSocket.open: 2
 TermSocket.open: Opened 2
+[I 16:47:26.348 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 16:47:29.075 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 16:49:18.179 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 16:50:27.670 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 16:50:28.490 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 16:50:44.768 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 16:50:45.643 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 16:50:47.676 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 16:53:43.998 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 16:54:05.299 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 16:54:09.126 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 16:54:20.680 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 16:54:31.099 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 16:54:35.623 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:09:27.444 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:09:29.430 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:09:40.080 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:10:39.542 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:10:46.427 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:11:58.617 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:12:07.833 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:12:11.356 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:12:20.729 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:12:23.800 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:12:27.103 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:12:45.937 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:12:48.118 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:13:18.921 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:13:21.563 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:13:24.884 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:14:14.914 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:14:20.444 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:17:47.299 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:18:02.473 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:18:15.227 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:18:21.106 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:18:59.396 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:19:02.494 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:19:33.123 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:19:46.773 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:34:29.975 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:34:34.669 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:34:35.995 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:34:39.006 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:35:49.654 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:35:51.655 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:36:13.030 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:36:14.412 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:36:26.806 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:36:28.231 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:36:31.164 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:36:32.589 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:14:43.280 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:15:55.765 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:16:36.727 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:16:53.771 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:17:19.951 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:17:57.496 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:18:21.781 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:18:29.469 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:20:29.514 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:20:30.510 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:20:37.851 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:20:39.213 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:21:52.442 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:22:19.741 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:22:24.649 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:22:54.129 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:22:58.069 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:23:15.133 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:23:17.375 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:23:30.934 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:23:43.776 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:23:54.623 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c-simple-env.ipynb
+[I 17:24:01.634 LabApp] Kernel restarted: 2681847a-f4de-4ce1-8fbf-f1ccbf0d4525
+[I 17:24:28.938 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c-simple-env.ipynb
+[I 17:24:48.180 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:25:00.314 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 17:25:03.048 LabApp] Kernel restarted: 2681847a-f4de-4ce1-8fbf-f1ccbf0d4525
+2019-10-23 17:25:04.215498: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-23 17:25:04.262701: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-23 17:25:04.263491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-23 17:25:04.264247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-23 17:25:04.264323: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:25:04.264357: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:25:04.264386: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:25:04.264416: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:25:04.264445: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:25:04.264483: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:25:04.264512: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-23 17:25:04.264517: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-23 17:25:04.264745: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-23 17:25:04.296429: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-23 17:25:04.297918: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x563bbcc466f0 executing computations on platform Host. Devices:
+2019-10-23 17:25:04.297962: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-10-23 17:25:04.936244: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x563bbccf9260 executing computations on platform CUDA. Devices:
+2019-10-23 17:25:04.936305: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:25:04.936322: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:25:04.936335: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:25:04.937022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-23 17:25:04.937052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 17:26:20.238 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:26:21.547 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c-simple-env.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 17:26:23.214 LabApp] Kernel restarted: 2681847a-f4de-4ce1-8fbf-f1ccbf0d4525
+2019-10-23 17:26:24.413919: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-23 17:26:24.460046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-23 17:26:24.460871: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-23 17:26:24.461620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-23 17:26:24.461708: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:24.461743: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:24.461774: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:24.461806: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:24.461836: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:24.461865: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:24.461896: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-23 17:26:24.461900: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-23 17:26:24.462127: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-23 17:26:24.492387: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-23 17:26:24.494044: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55811ddb4730 executing computations on platform Host. Devices:
+2019-10-23 17:26:24.494090: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-10-23 17:26:25.189199: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55811de672a0 executing computations on platform CUDA. Devices:
+2019-10-23 17:26:25.189273: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:26:25.189292: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:26:25.189306: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:26:25.190019: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-23 17:26:25.190052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 17:26:34.052 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:26:41.419 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c-simple-env.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 17:26:42.960 LabApp] Kernel restarted: 2681847a-f4de-4ce1-8fbf-f1ccbf0d4525
+2019-10-23 17:26:44.136874: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-23 17:26:44.175607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-23 17:26:44.176304: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-23 17:26:44.176938: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-23 17:26:44.177011: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:44.177044: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:44.177073: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:44.177103: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:44.177133: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:44.177162: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:26:44.177193: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-23 17:26:44.177197: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-23 17:26:44.177413: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-23 17:26:44.208417: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-23 17:26:44.209868: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556b3ba4e240 executing computations on platform Host. Devices:
+2019-10-23 17:26:44.209916: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-10-23 17:26:44.823601: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556b3bb00db0 executing computations on platform CUDA. Devices:
+2019-10-23 17:26:44.823646: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:26:44.823657: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:26:44.823679: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:26:44.824164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-23 17:26:44.824183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 17:27:52.054 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:28:19.856 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:28:24.998 LabApp] Saving file at /a3c-tf2/a2c-simple-env/agent.py
+[I 17:28:28.628 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:28:31.379 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c.py
+[I 17:28:41.529 LabApp] Saving file at /a3c-tf2/a2c-simple-env/a2c-simple-env.ipynb
+[I 17:30:23.905 LabApp] Creating new directory in /a3c-tf2
+[I 17:30:36.199 LabApp] Starting buffering for 2681847a-f4de-4ce1-8fbf-f1ccbf0d4525:8dfc9c5b-b9c6-4026-9ed7-a3b636369ff0
+Websocket closed
+[I 17:30:38.473 LabApp] 302 GET / (166.104.231.227) 0.86ms
+[I 17:30:41.444 LabApp] Build is up to date
+[I 17:30:43.008 LabApp] Starting buffering for 2681847a-f4de-4ce1-8fbf-f1ccbf0d4525:b656f7ab-7177-4a32-99fb-d786daf81df1
+[I 17:30:43.070 LabApp] Starting buffering for 2681847a-f4de-4ce1-8fbf-f1ccbf0d4525:e4bd588e-f83b-41b9-8c88-a42c38748404
+[I 17:31:08.288 LabApp] Creating new notebook in /a3c-tf2/custom_training
+[I 17:31:08.445 LabApp] Kernel started: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 17:31:10.017 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:31:36.666 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:31:37.814 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:32:32.076 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:32:35.446 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:33:05.027 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:33:13.999 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:33:36.603 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:33:39.421 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:33:52.914 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:33:59.006 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:34:00.011 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:34:43.582 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:34:45.895 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:34:47.651 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:35:47.527 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:36:00.150 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:38:00.237 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:44:00.324 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:44:20.124 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:44:40.934 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:44:58.286 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:44:59.164 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:45:01.789 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:45:36.771 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:45:52.988 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+2019-10-23 17:45:53.315998: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-23 17:45:53.337478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-23 17:45:53.339044: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-23 17:45:53.340568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-23 17:45:53.340749: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:45:53.340856: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:45:53.340953: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:45:53.341046: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:45:53.341139: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:45:53.341225: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-23 17:45:53.341291: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-23 17:45:53.341301: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-23 17:45:53.342142: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-23 17:45:53.376517: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-23 17:45:53.378662: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555ba4839520 executing computations on platform Host. Devices:
+2019-10-23 17:45:53.378716: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-10-23 17:45:53.889585: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555ba474ad20 executing computations on platform CUDA. Devices:
+2019-10-23 17:45:53.889642: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:45:53.889656: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:45:53.889667: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-23 17:45:53.890290: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-23 17:45:53.890317: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 17:45:59.561 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:46:01.561 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:46:32.883 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:46:38.858 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:47:20.697 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:47:33.158 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:48:04.668 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:48:13.508 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:48:55.143 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:49:51.537 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:49:54.900 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:50:22.335 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:50:24.321 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:50:35.800 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:50:36.702 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 17:51:04.054 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:32:02.842 LabApp] 302 GET / (118.36.80.19) 0.79ms
+[I 22:32:04.463 LabApp] Build is up to date
+[I 22:32:38.540 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:32:40.998 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:32:41.906 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:33:42.736 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:33:47.348 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:33:51.743 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:34:03.060 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:34:09.585 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:34:10.669 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:34:31.694 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:35:16.643 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:35:44.388 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:35:48.546 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:37:48.594 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:37:57.655 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:38:27.967 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:38:30.969 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:38:50.558 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:39:08.259 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:39:27.880 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:39:28.887 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:39:36.932 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:39:37.702 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:39:50.990 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:40:00.340 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:40:40.490 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:41:12.871 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:41:51.123 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:46:18.174 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:47:15.954 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:47:18.358 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:47:46.407 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:48:13.486 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:48:28.152 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:48:53.044 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:48:54.000 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:49:04.338 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:50:55.637 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:50:58.771 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:00.227 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:06.884 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:09.555 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:12.777 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:17.391 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:18.671 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:45.863 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:51:53.735 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:52:13.030 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:52:19.825 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:52:58.129 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:53:14.496 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:53:15.988 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:53:50.787 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:00.524 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:03.409 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:20.016 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:24.984 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:27.221 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:29.470 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:32.474 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:33.341 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:54:59.715 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:55:09.908 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:55:27.471 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:55:56.070 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:56:44.935 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:58:30.535 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:58:31.709 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:58:51.858 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:59:26.269 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:59:45.544 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:59:46.514 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 22:59:54.970 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:00:01.271 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:00:02.908 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:00:36.520 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:00:44.707 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:00:47.082 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:00:58.959 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:01:01.886 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:01:07.229 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:01:15.024 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:01:33.850 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:02:05.123 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:02:11.099 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:04:11.174 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:05:40.035 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:05:41.832 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:05:43.476 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:05:44.572 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:05:50.629 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:05:53.634 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:06:14.146 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:06:19.504 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:06:57.855 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:06:59.098 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:07:01.413 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:07:08.880 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:07:18.826 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:07:24.408 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:07:24.984 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:07:25.943 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:08:38.668 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:09:31.810 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:09:33.532 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:09:48.580 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:09:50.448 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:10:26.735 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:10:27.947 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:11:19.165 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:11:20.666 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:11:23.158 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:11:25.134 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:11:27.047 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:11:32.638 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:01.443 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:05.484 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:12:05.629 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:12:06.703 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:08.820 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:38.942 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:43.538 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:44.254 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:45.297 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:46.531 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:49.007 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:12:53.602 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:12:53.733 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:12:56.357 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:14:01.115 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:14:05.043 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:14:12.485 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:14:16.204 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:14:18.092 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:14:23.101 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:15:09.894 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:16:15.410 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:16:55.608 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:17:00.439 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:17:19.885 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:17:21.959 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:17:24.423 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:17:27.546 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:19:12.857 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:19:35.339 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:20:17.561 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:20:25.921 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:20:26.856 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:20:35.288 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:20:37.057 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:20:41.181 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:21:10.991 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:21:17.350 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:21:18.822 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:21:25.601 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:21:38.353 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:21:48.996 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:21:50.487 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:22:29.302 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:22:30.962 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:22:46.750 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:22:48.285 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:22:54.373 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:22:55.813 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:23:09.220 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:23:19.552 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:23:25.781 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:23:28.377 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:23:30.981 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:23:32.059 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:23:56.789 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:23:56.905 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:24:04.180 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:24:04.967 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:24:07.022 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:24:08.138 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:24:09.153 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:25:18.258 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:25:22.550 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:25:23.558 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:25:42.068 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:25:43.584 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:25:45.991 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:01.572 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:04.397 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:21.947 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:26.196 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:27.248 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:32.575 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:35.895 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:45.128 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:46.285 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:26:56.449 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:27:12.945 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:27:28.197 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:27:28.730 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:28:53.873 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:28:59.554 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:29:01.942 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:29:08.287 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:29:09.028 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:29:10.184 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:29:11.822 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:29:14.829 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:30:38.997 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:30:42.982 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:30:44.422 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:30:45.483 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:30:46.672 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:30:48.027 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:31:03.700 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:31:03.830 LabApp] Kernel interrupted: 59a416b1-4801-4200-abb2-4140ec9b8043
+[I 23:31:08.276 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:31:10.028 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:31:11.038 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:31:13.871 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:32:33.852 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:32:37.417 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:32:39.982 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:32:45.502 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:33:02.568 LabApp] Saving file at /a3c-tf2/custom_training/Untitled.ipynb
+[I 23:33:31.413 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:12:03.797 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:12:13.332 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:12:14.163 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:12:15.118 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:12:16.267 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:12:17.184 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:13:38.963 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:13:41.563 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:13:43.897 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:13:54.329 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:13:55.925 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:13:57.118 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:13:58.090 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:14:02.064 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:14:15.741 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:14:21.897 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:14:25.269 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:14:27.560 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:15:25.391 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:17:25.463 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:17:43.786 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:17:50.912 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:17:51.795 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:18:10.256 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:18:11.017 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:18:52.349 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:20:52.418 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:21:32.935 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:21:41.174 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:24:21.640 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:24:49.457 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:26:49.526 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:38:49.641 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:38:58.354 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:39:29.238 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:40:17.825 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:40:58.402 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[W 00:41:03.885 LabApp] delete /a3c-tf2/custom_training/esay_checkpoint.data-00000-of-00001
+[W 00:41:03.905 LabApp] delete /a3c-tf2/custom_training/esay_checkpoint.index
+[W 00:41:03.907 LabApp] delete /a3c-tf2/custom_training/checkpoint
+[I 00:41:04.592 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:57:55.302 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:57:57.769 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 00:59:37.711 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:00:34.385 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:01:00.411 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:01:49.477 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:02:27.265 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:03:56.023 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:04:02.580 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:04:11.011 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:04:12.368 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:04:38.934 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:04:40.652 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:05:15.463 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:05:32.162 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:05:38.438 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:05:42.872 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:05:44.821 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:05:48.146 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:05:50.650 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 01:05:55.316 LabApp] Kernel restarted: 59a416b1-4801-4200-abb2-4140ec9b8043
+2019-10-24 01:06:01.417792: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-10-24 01:06:01.433382: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:1a:00.0
+2019-10-24 01:06:01.434258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:67:00.0
+2019-10-24 01:06:01.435082: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.607
+pciBusID: 0000:68:00.0
+2019-10-24 01:06:01.435160: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2019-10-24 01:06:01.435198: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2019-10-24 01:06:01.435229: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2019-10-24 01:06:01.435260: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2019-10-24 01:06:01.435291: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2019-10-24 01:06:01.435321: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2019-10-24 01:06:01.435352: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2019-10-24 01:06:01.435357: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2019-10-24 01:06:01.435533: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-10-24 01:06:01.468413: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3300000000 Hz
+2019-10-24 01:06:01.470176: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5648e5be1e40 executing computations on platform Host. Devices:
+2019-10-24 01:06:01.470226: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-10-24 01:06:02.148029: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5648e5c949b0 executing computations on platform CUDA. Devices:
+2019-10-24 01:06:02.148105: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-24 01:06:02.148124: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-24 01:06:02.148150: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-10-24 01:06:02.148777: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-24 01:06:02.148805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+[I 01:06:04.994 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:06:11.393 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:06:15.612 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:07:10.245 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:07:17.186 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:07:36.725 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:07:38.339 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:07:45.734 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:07:47.940 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:08:00.878 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:09:28.545 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:09:40.912 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:09:49.228 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:09:53.244 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:10:04.294 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:10:05.555 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:10:23.316 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:10:40.251 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:01.535 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:10.178 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:11.613 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:13.849 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:16.971 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:18.366 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:51.337 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:58.427 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:12:59.563 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:20.966 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:22.074 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:23.696 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:32.094 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:32.832 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:45.823 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:47.138 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:52.074 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:13:56.217 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:14:01.447 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:14:05.868 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:14:13.347 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:14:19.234 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:15:07.490 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:15:42.847 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:16:02.357 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:16:03.684 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:16:11.562 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:16:15.137 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:16:18.285 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:16:22.538 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:16:25.465 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:18:05.381 LabApp] New terminal with automatic name: 4
+TermSocket.open: 4
+TermSocket.open: Opened 4
