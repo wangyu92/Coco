@@ -4736,3 +4736,311 @@ Skipping registering GPU devices...
 [I 01:18:05.381 LabApp] New terminal with automatic name: 4
 TermSocket.open: 4
 TermSocket.open: Opened 4
+[I 01:23:15.496 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:25:15.577 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:25:41.200 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:27:02.674 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:27:04.109 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:36:50.177 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:36:52.711 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:37:56.242 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:38:46.718 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:38:58.359 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:39:04.503 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:41:04.573 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:43:04.678 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:47:15.510 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[I 01:48:51.289 LabApp] Saving file at /a3c-tf2/custom_training/supervised learning.ipynb
+[W 03:04:04.745 LabApp] WebSocket ping timeout after 119993 ms.
+[W 03:04:05.410 LabApp] WebSocket ping timeout after 119993 ms.
+Websocket closed
+[I 10:17:47.452 LabApp] Starting buffering for 59a416b1-4801-4200-abb2-4140ec9b8043:08feb496-306d-4ac0-abb7-b802e87eb937
+[I 10:17:48.699 LabApp] Build is up to date
+TermSocket.open: 4
+TermSocket.open: Opened 4
+[W 13:08:00.931 LabApp] 404 GET /apple-touch-icon-precomposed.png (218.235.241.106) 1.24ms referer=None
+[W 13:08:01.003 LabApp] 404 GET /apple-touch-icon.png (218.235.241.106) 1.76ms referer=None
+[I 13:08:01.379 LabApp] Build is up to date
+TermSocket.open: 4
+TermSocket.open: Opened 4
+[I 13:08:43.496 LabApp] Creating new directory in /a3c-tf2
+[I 13:10:06.195 LabApp] Creating new notebook in /a3c-tf2/webrtc_sim_trainning
+[I 13:10:06.546 LabApp] Kernel started: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 13:10:08.410 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/Untitled.ipynb
+[I 13:11:09.581 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 13:11:24.429 LabApp] Creating new file in /a3c-tf2/webrtc_sim_trainning
+[I 13:11:58.337 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:12:05.103 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:12:17.434 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[W 13:16:33.663 LabApp] WebSocket ping timeout after 119966 ms.
+[W 13:16:36.829 LabApp] WebSocket ping timeout after 119938 ms.
+[W 13:16:37.958 LabApp] WebSocket ping timeout after 119943 ms.
+Websocket closed
+[I 13:16:41.831 LabApp] Starting buffering for a6e106d3-1f85-4b11-83ea-bac4c7c200d2:b625f14c-ee8d-439c-9d96-5b13eff6ef54
+[I 13:19:38.219 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:19:42.018 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:20:22.311 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:20:23.023 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:22:02.911 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:22:04.671 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:22:55.129 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:22:56.966 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:24:58.582 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:25:07.231 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:25:08.319 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:25:27.631 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 13:27:27.792 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/model.py
+[I 14:16:51.043 LabApp] Creating new file in /a3c-tf2/webrtc_sim_trainning
+[I 14:17:07.335 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:17:49.470 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:18:43.880 LabApp] Restoring connection for a6e106d3-1f85-4b11-83ea-bac4c7c200d2:b625f14c-ee8d-439c-9d96-5b13eff6ef54
+[I 14:18:54.531 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:19:12.733 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:19:15.131 LabApp] Kernel interrupted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 14:19:15.870 LabApp] Kernel interrupted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 14:19:16.038 LabApp] Kernel interrupted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 14:19:16.216 LabApp] Kernel interrupted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 14:19:20.682 LabApp] Starting buffering for a6e106d3-1f85-4b11-83ea-bac4c7c200d2:b625f14c-ee8d-439c-9d96-5b13eff6ef54
+[I 14:19:21.497 LabApp] Build is up to date
+[I 14:19:31.051 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:19:32.589 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:19:37.597 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:19:38.701 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:19:50.793 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:19:52.230 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:19:54.823 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 14:19:55.891 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 14:20:01.444 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:20:07.374 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:20:11.865 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 14:20:12.858 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 14:20:17.391 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 14:20:58.134 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:21:18.546 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:27:39.093 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:27:58.575 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:29:10.110 LabApp] Creating new file in /a3c-tf2/webrtc_sim_trainning
+[I 14:29:11.847 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/untitled.txt
+[I 14:29:53.822 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:29:57.350 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:30:03.298 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 14:30:11.113 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:11:57.033 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:11:58.794 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:12:00.580 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:12:01.266 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:14:00.109 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:14:08.396 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:15:58.269 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:16:14.958 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:19:24.760 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:19:46.031 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:19:53.703 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:19:55.418 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:20:00.302 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:20:01.901 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:20:05.794 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:20:08.700 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env_.py
+[I 15:20:13.912 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:20:26.273 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:22:28.879 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:22:38.177 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:22:40.791 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:23:02.228 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:25:27.632 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:25:40.877 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:26:06.019 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:26:12.660 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:27:11.441 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:27:12.599 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:28:39.087 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:28:41.173 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:28:45.672 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:28:48.152 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:29:11.573 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:29:14.586 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:29:24.474 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:29:25.289 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:29:28.757 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:29:29.441 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:29:41.442 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:30:02.401 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:30:15.685 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:30:50.896 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:31:07.016 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:31:21.518 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:31:32.721 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:31:38.981 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:31:45.825 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:31:58.453 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:32:20.155 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:32:28.659 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:32:37.264 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:35:12.106 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:42:25.323 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:42:39.874 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:43:11.405 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:43:13.441 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:43:14.414 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:43:14.942 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:43:38.449 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:43:57.632 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:44:00.839 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:44:03.388 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:44:04.544 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:44:06.199 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:45:08.418 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:45:11.827 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:45:16.753 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:46:33.142 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:46:53.674 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:47:13.255 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:47:17.540 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:47:19.108 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:47:24.339 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:47:41.261 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:47:44.491 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:47:46.009 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:47:51.625 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:48:09.786 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:48:19.927 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:48:21.857 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:48:27.987 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:48:30.022 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:48:32.808 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:48:36.822 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:49:36.205 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:49:38.426 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:49:39.566 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:49:44.003 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:50:13.818 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:50:23.676 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:50:27.293 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:50:42.203 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:50:44.587 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:50:48.027 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:50:50.483 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:50:54.092 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:50:56.834 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:51:02.126 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:51:22.001 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/env.py
+[I 15:51:25.943 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/logging/__init__.py", line 2038, in shutdown
+    h.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/home/wangyu/miniconda3/envs/tensorflow2.0/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 15:51:26.985 LabApp] Kernel restarted: a6e106d3-1f85-4b11-83ea-bac4c7c200d2
+[I 15:51:31.158 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[I 15:51:40.450 LabApp] Saving file at /a3c-tf2/webrtc_sim_trainning/test.ipynb
+[W 16:01:22.348 LabApp] WebSocket ping timeout after 119925 ms.
+[W 16:01:22.539 LabApp] WebSocket ping timeout after 119938 ms.
+[I 16:01:27.352 LabApp] Starting buffering for a6e106d3-1f85-4b11-83ea-bac4c7c200d2:369354ab-ec95-4bac-8027-3f8d590d556a
+Websocket closed
+[I 16:44:29.227 LabApp] Starting buffering for 59a416b1-4801-4200-abb2-4140ec9b8043:37d5dedb-6a1c-436e-9828-aa6c558ae865
+[I 16:44:30.064 LabApp] Build is up to date

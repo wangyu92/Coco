@@ -42,7 +42,7 @@ class A2CAgent:
             _, _, next_value = self.model.action_value(next_state[None, :])
             
 #             print(actions)
-            returns, advs = self._returns_advantages(rewards, dones, values, next_value)
+            returns, advs = self.model._returns_advantages(rewards, dones, values, next_value)
             # a trick to input actions and advantages through same API
         
             acts_and_advs = np.concatenate([actions[:, None], advs[:, None]], axis=-1)

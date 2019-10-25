@@ -10,6 +10,10 @@ class ProbabilityDistribution(tf.keras.Model):
 class Model(tf.keras.Model):
     def __init__(self, num_actions):
         super().__init__('mlp_policy')
+        self.params = {
+            'value': 0.5,
+            'entropy': 0.001,
+            'gamma':0.99}
         # no tf.get_variable(), just simple Keras API
         self.hidden1 = keras.layers.Dense(128, activation='relu')
         self.hidden2 = keras.layers.Dense(128, activation='relu')
