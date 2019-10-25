@@ -9,6 +9,10 @@ class Actor:
     def __init__(self, env):
         self.env = env
         self.model = self.create_model()
+        self.params = {
+            'lr-actor':0.0001,
+            'lr-critic':0.0001
+        }
         
     def create_model(self):
         inputs = keras.Input(shape=(self.env.state_shape))
@@ -24,7 +28,7 @@ class Actor:
         
         model = keras.Model(inputs=inputs, outputs=outputs)
         
-        optimizer = keras.optimizers.Adam(0.0001)
+        optimizer = keras.optimizers.Adam(self.params['lr-actor'])
         ckpt = tf.train.Checkpoint(step=tf.Variable(1), optimizer=optimizer, net=model)
         manager = tf.train.CheckpointManager(ckpt, './tf_ckpts', max_to_keep=3)
         
@@ -51,7 +55,7 @@ class Critic:
         
         model = keras.Model(inputs=inputs, outputs=outputs)
         
-        self.optimizer = keras.optimizers.Adam(0.0001)
+        self.optimizer = keras.optimizers.Adam(self.params['lr-critic'])
         self.ckpt = tf.train.Checkpoint(step=tf.Variable(1), optimizer=optimizer, net=model)
         self.ckpt_manager = tf.train.CheckpointManager(ckpt, './tf_ckpts', max_to_keep=3)
         
