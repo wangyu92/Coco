@@ -8,6 +8,8 @@ import time
 
 class Actor:
     def __init__(self, env):
+        keras.backend.set_floatx('float64')
+        
         self.env = env
         self.model = self.create_model()
         
@@ -63,7 +65,6 @@ class Actor:
     
     @tf.function
     def train(self, states, advantages, actions):
-        states = tf.dtypes.cast(states, dtype=tf.float32)
         with tf.GradientTape() as tape:
             predictions = self.model(states, training=True)
             # predictions = self.model.predict(states)
@@ -74,23 +75,6 @@ class Actor:
         
     @tf.function
     def _loss(self, preds, advantages, actions):
-        """
-        최종적으로 (batch size, ) shape을 반환하여야함.
-        
-        
-        1. input shape을 확인한 다음. 어떻게 처리할지 확인해보자.
-        
-            predictions -> Tensor("predictions:0", shape=(100, 1, 60), dtype=float32)
-            advantages -> Tensor("advantages:0", shape=(100,), dtype=float64)
-            actions -> Tensor("actions:0", shape=(100, 30), dtype=float32)
-            
-        2. predictions를 이용해서 normal distribution을 구함.
-        3. normal distribution에 actions를 넣어서 log prob을 구해야함.
-        4. loss function 생성.
-        
-        """
-        advantages = tf.dtypes.cast(advantages, dtype=tf.float32)
-        
         mus = preds[0]
         sigmas = preds[1]
         
@@ -117,6 +101,8 @@ class Actor:
     
 class Critic:
     def __init__(self, env):
+        keras.backend.set_floatx('float64')
+        
         self.env = env
         self.model = self.create_model()
         
@@ -144,7 +130,6 @@ class Critic:
     
     @tf.function
     def train(self, states, returns):
-        states = tf.dtypes.cast(states, dtype=tf.float32)
         with tf.GradientTape() as tape:
             predictions = self.model(states, training=True)
             # predictions = self.model.predict(states)
@@ -154,9 +139,6 @@ class Critic:
         return loss_value
             
     def _mse(self, labels, preds):
-        labels = tf.dtypes.cast(labels, dtype=tf.float32)
-        preds = tf.dtypes.cast(preds, dtype=tf.float32)
-        
         subs = labels - preds
         square = tf.math.pow(subs, 2)
         sums = tf.math.reduce_sum(square)

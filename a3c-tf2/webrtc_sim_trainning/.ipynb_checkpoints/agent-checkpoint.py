@@ -14,6 +14,7 @@ class Agent:
         self.env = Env()
         self.actor = Actor(self.env)
         self.critic = Critic(self.env)
+        self.ones = True
         
         self.params = {
             'gamma':0.99,
@@ -23,10 +24,10 @@ class Agent:
     def config_tensorboard(self):
         # -- tensorboard --
         current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-        train_log_dir = 'logs/gradient_tape/' + current_time + 'train'
+        train_log_dir = 'logs/gradient_tape/' + current_time + '/train'
+        test_log_dir = 'logs/gradient_tape/' + current_time + '/test'
         self.train_summary_writer = tf.summary.create_file_writer(train_log_dir)
-        test_log_dir = 'logs/gradient_tape/' + current_time + 'test'
-        self.test_summary_wrtier = tf.summary.create_file_writer(test_log_dir)
+        self.test_summary_writer = tf.summary.create_file_writer(test_log_dir)
         
         # -- metric --
         loss_metric = keras.metrics.Mean(name='train_loss')
@@ -52,7 +53,10 @@ class Agent:
         self.config_tensorboard()
         self.restore_checkpoint()
         
-        actions = np.empty((batch_size,) + self.env.action_shape, dtype=np.float32)
+        self.logger = open('logs/log.txt', 'w')
+        self.logger.write('updates' + '\t' + 'advs' + '\t' + 'p_loss' + '\t' + 'v_loss' + '\t' + 'rw_epi' + '\n')
+        
+        actions = np.empty((batch_size,) + self.env.action_shape)
         rewards, dones, values = np.empty((3, batch_size))
         states = np.empty((batch_size,) + self.env.state_shape)
         
@@ -94,14 +98,28 @@ class Agent:
                 
             # tensorboard
             with self.train_summary_writer.as_default():
-#                 print(np.mean(advantages))
-#                 print(np.mean(loss_policy))
-#                 print(np.mean(loss_value))
-#                 print(sum(reward_epi))
-                tf.summary.scalar('advantages', np.mean(advantages), step=update)
-                tf.summary.scalar('loss_policy', np.mean(loss_policy), step=update)
-                tf.summary.scalar('loss_value', np.mean(loss_value), step=update)
-                tf.summary.scalar('rewards_epi', sum(reward_epi), step=update)
+                mean_advantages = np.mean(advantages)
+                mean_loss_policy = np.mean(loss_policy)
+                mean_loss_value = np.mean(loss_value)
+                sum_reward_epi = sum(reward_epi)
+                
+                if self.ones:
+                    print("advs", mean_advantages)
+                    print("p_loss", mean_loss_policy)
+                    print("v_loss", mean_loss_value)
+                    print("rw_epi", sum_reward_epi)
+                    self.ones = False
+                
+                self.logger.write(str(mean_advantages) + '\t')
+                self.logger.write(str(mean_loss_policy) + '\t')
+                self.logger.write(str(mean_loss_value) + '\t')
+                self.logger.write(str(sum_reward_epi) + '\n')
+                self.logger.flush()
+                
+                tf.summary.scalar('advantages', mean_advantages, step=update)
+                tf.summary.scalar('loss_policy', mean_loss_policy, step=update)
+                tf.summary.scalar('loss_value', mean_loss_value, step=update)
+                tf.summary.scalar('rewards_epi', sum_reward_epi, step=update)
                     
     def _returns_advantages(self, rewards, dones, values, next_value):
         next_value = tf.squeeze(next_value, axis=[0, 1])

@@ -63,10 +63,10 @@ class Env:
         self.end_of_video = False
         
         # -- hardware params --
-        self.hd_weight = np.random.randint(10000, 100000)
+        self.hd_weight = np.random.randint(2000, 4000) * self.num_clu
         
         # -- state --
-        self.state = np.zeros(self.state_shape, dtype=np.float32)
+        self.state = np.zeros(self.state_shape)
         self.state[0, :self.num_clu] = np.array(self._get_rembs_clu()) # REMB
         self.state[1, :self.num_clu] = np.array(self.num_cli) # the number of clients in each cluster
         self.state[2, -1] = np.array(0) # hardware
@@ -95,14 +95,20 @@ class Env:
             qoe_quality += self._quality(br)
             qoe_distortion += self._quality(br) * self._distortion(remb, br)
             qoe_latency += self._quality(br) * (self._latency() / 1000)
+            
+            qoe_quality *= num_of_clients
+            qoe_distortion *= num_of_clients
+            qoe_latency *= num_of_clients
              
         qoe = qoe_quality - qoe_distortion - qoe_latency
         
         # fairness
-        fairness = self.num_clu * (1 - self._fairness(bitrates, self.current_rembs))
+        fairness = self.num_clu * (1 - self._fairness(bitrates, self.current_rembs)) * np.mean(bitrates)
         
         # hardware
         hardware = self._hardware(bitrates)
+        if hardware > 100 and qoe > 0:
+            qoe -= qoe * 0.01 * (hardware - 100)
         
         reward = qoe - fairness - hardware
         
@@ -112,12 +118,12 @@ class Env:
             self.reset()
             
         # -- state --
-        self.state = np.zeros(self.state_shape, dtype=np.float32)
+        self.state = np.zeros(self.state_shape)
         self.state[0, :self.num_clu] = np.array(self._get_rembs_clu()) # REMB
         self.state[1, :self.num_clu] = np.array(self.num_cli) # the number of clients in each cluster
         self.state[2, -1] = np.array((sum(bitrates) / self.hd_weight) * 100) # hardware
         
-        return self.state, reward, self.end_of_video
+        return self.state, reward * 0.001, self.end_of_video
         
     def _get_rembs_clu(self):
         """
@@ -177,13 +183,16 @@ class Env:
             return np.log2(q)
     
     def _distortion(self, remb, bitrate):
+        """
+        distortion을 0~1이 값으로 반환
+        """
         if remb >= bitrate:
-            return 0
+            return 0.0
         else:
             if remb == 0:
-                return 0
+                return 1.0
             else:
-                return (bitrate - remb) / remb
+                return np.clip((bitrate - remb) / remb, 0, 1.0)
         
     def _latency(self):
         return 80
