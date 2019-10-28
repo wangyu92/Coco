@@ -23,9 +23,9 @@ class Agent:
     def config_tensorboard(self):
         # -- tensorboard --
         current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-        train_log_dir = 'logs/gradient_tape' + current_time + 'train'
+        train_log_dir = 'logs/gradient_tape/' + current_time + 'train'
         self.train_summary_writer = tf.summary.create_file_writer(train_log_dir)
-        test_log_dir = 'logs/gradient_tape' + current_time + 'test'
+        test_log_dir = 'logs/gradient_tape/' + current_time + 'test'
         self.test_summary_wrtier = tf.summary.create_file_writer(test_log_dir)
         
         # -- metric --
@@ -94,6 +94,10 @@ class Agent:
                 
             # tensorboard
             with self.train_summary_writer.as_default():
+#                 print(np.mean(advantages))
+#                 print(np.mean(loss_policy))
+#                 print(np.mean(loss_value))
+#                 print(sum(reward_epi))
                 tf.summary.scalar('advantages', np.mean(advantages), step=update)
                 tf.summary.scalar('loss_policy', np.mean(loss_policy), step=update)
                 tf.summary.scalar('loss_value', np.mean(loss_value), step=update)
