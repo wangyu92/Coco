@@ -31,7 +31,7 @@ class Env:
         # diemension
         # rembs, number of clients, bandwidth, hardward, bitrate of source
         self.state_shape = (3, 30)
-        self.action_shape = (30)
+        self.action_shape = (30,)
         
         # -- set variables --
         self.num_clu_low = num_clu_low
@@ -85,6 +85,7 @@ class Env:
         qoe_distortion = 0
         qoe_latency = 0
         
+        bitrates = bitrates[:self.num_clu]
         rembs = self.current_rembs
         for i in range(len(bitrates)):
             remb = rembs[i]
